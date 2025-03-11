@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main ()
+{
+    char s1[1005], s2[1005];
+
+
+    cin >> s1 >> s2;
+
+    if (strcmp(s1,s2) < 0 || strcmp(s1,s2) == 0)
+    {
+        cout << s1;
+    }
+    else if (strcmp(s1,s2) > 0)
+    {
+        cout << s2;
+    }
+  return 0;
+}
